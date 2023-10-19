@@ -1,0 +1,104 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #24053E ;
+    padding-top: 50px;
+}
+
+.apply-btn {
+    color: var(--White, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    background-color: transparent;
+    border: none ;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    text-decoration-color: #44FFA1;
+}
+
+
+.upper-container {
+    background-color: #24053E;
+    height: 630px;
+    flex-shrink: 0;
+    display: block;
+    justify-content: center ;
+    border-radius: 0% 0% 100% 100%/0% 0% 10% 10%;
+}
+
+.header {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading L */
+    font-family: Fraunces 144pt;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 100% */
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.tailored-underline {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    text-decoration-color: #44FFA1;
+}
+
+.learn-btn {
+    width: 161px;
+    height: 61px;
+    flex-shrink: 0;
+    background: var(--Eucaplyptus, #44FFA1);
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    border: none ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-left-circles {
+    margin-top: -380px;
+    margin-left: -170px;
+}
+
+.upper-right-circles {
+    margin-top: -100px;
+    max-height: 141px;
+    overflow: hidden;
+    /*clip: rect(0px,100px,300px,0px);*/
+}
+
+.upper-phone {
+    width: 702px;
+    height: 405px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+}
