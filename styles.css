@@ -40,8 +40,8 @@ body {
     height: 630px;
     flex-shrink: 0;
     display: block;
-    border-bottom-right-radius: 50% 5%;
-    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 10% 10%;
+    border-bottom-left-radius: 10% 10%;
 }
 
 .header {
@@ -103,7 +103,6 @@ body {
     margin-top: -100px;
     max-height: 141px;
     overflow: hidden;
-    /*clip: rect(0px,100px,300px,0px);*/
 }
 
 .upper-phone {
