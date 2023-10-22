@@ -1,3 +1,5 @@
+
+
 :root {
   --dark-purple: #24053e;
   --eucalyptus-green: #44ffa1;
@@ -105,7 +107,7 @@ body {
     color: var(--White, #FFF);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Fraunces 144pt;
+    font-family: "Fraunces" 144pt;
     font-size: 80px;
     font-style: normal;
     font-weight: 600;
@@ -199,13 +201,62 @@ body {
     }
 
     .middle::before {
-     content: "";
-    position: absolute;
-    z-index: -1;
-    border-radius: 50%;
-    background: var(--ghost-white);
-    --offset: 91px;
-    bottom: 0;
-    width: var(--bg-decoration-size);
-    height: var(--bg-decoration-size);
+      content: "";
+      position: absolute;
+      z-index: -1;
+      border-radius: 50%;
+      background: var(--ghost-white);
+      --offset: 91px;
+      bottom: 0;
+      width: var(--bg-decoration-size);
+      height: var(--bg-decoration-size);
       }
+
+    .middle-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1062px;
+      padding-top: 400px;
+      grid-gap: 70px;
+    }
+
+    .insight-numbers {
+      color: var(--Dark-Purple, #24053E);
+      text-align: center;
+      font-family: Fraunces 144pt;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 55px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 1px solid var(--Davys-Grey, #584D62);
+      display: grid;
+
+    }
+
+    .insight-header {
+      color: var(--Dark-Purple, #24053E);
+      text-align: center;
+      font-family: Fraunces 144pt;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+
+    .insight-text {
+      color: var(--Dark-Purple, #24053E);
+      text-align: center;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Manrope;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+    }
+
+    #one {
+
+    }
