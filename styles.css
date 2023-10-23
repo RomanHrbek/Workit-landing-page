@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: "Fraunces";
   font-style: normal;
   src: url(./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf) format("truetype");
@@ -14,7 +14,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(./assets/fonts/manrope/Manrope-Bold.ttf) format("woff2");
-}
+}*/
 
 :root {
   --dark-purple: #24053e;
